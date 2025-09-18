@@ -1,0 +1,82 @@
+* {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        
+    }
+    html {
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+    li {
+        list-style: none;
+    }
+    svg {
+       width: 22px;
+    }
+    svg:hover{
+        fill: yellow;
+    }
+    .btn-enviar {
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 12px 24px;
+        border-radius: 8px;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+
+    }
+    .btn-enviar:hover{
+        background-color: rgb(25, 25, 25);
+    }
+    .btn-enviar a {
+        color: white;
+        text-decoration: none;
+
+
+    }
+    .cards {
+        background-color: rgb(43,101,226);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .card {
+        display :flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        width: 250px ;
+        border: 3px solid gray;
+        border-radius: 35px;
+        padding: 20px;
+        background-color: white;
+        
+    }
+    .card img {
+        width: 150px;
+    }
+    .titulo {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .paragrafo {
+        font-size: 15px;
+        line-height: 15px;
+        color:black;
+    }
+    .preco {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .container-estrelas {
+        display: flex;
+    }
+   
