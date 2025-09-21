@@ -76,7 +76,33 @@
         font-size: 15px;
         line-height: 15px;
     }
+    /* -----------------------teste sozinho----------------------------- */
+   
+   
+    .container-estrelas label {
+        font-size: 25px;
+        color: #555454;
+        cursor: pointer;
+        transition: color 0.2s;
+    }
+    .container-estrelas input:checked ~ label{
+        color: #555454;
+    }
+    .container-estrelas label:hover,
+    .container-estrelas label:hover ~ label {
+    color: yellow;
+    }
+    .container-estrelas input:checked + label,
+    .container-estrelas input:checked + label ~ label {
+    color: yellow;
+    }
+     .container-estrelas input {
+    display: none;
+    }
     .container-estrelas {
         display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 5px;
     }
    
