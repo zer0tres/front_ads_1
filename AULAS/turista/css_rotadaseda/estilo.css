@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('https://wallpapers.com/images/hd/4k-mountain-fujjoqqen0rsvm76.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+body {
+    font-family: 'Gill Sans';
+    color: white;
+    text-shadow: black 3px 2px 3px;
+    text-align: center;
+}
+
+.top {
+    text-align: center;
+    color: white;
+
+    text-shadow: black 3px 2px 3px;
+    padding: 0px;
+
+}
+
+.top h1 {
+    font-size: 35px;
+    color: white;
+
+    text-shadow: black 3px 2px 3px;
+}
+
+.top p {
+    font-size: 19px;
+    color: white;
+
+    text-shadow: black 3px 2px 3px;
+}
+
+.bot {
+    text-align: center;
+    color: white;
+
+    text-shadow: black 3px 2px 3px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.bot h2 {
+    font-size: 35px;
+    margin-top: 15px;
+    color: white;
+
+    text-shadow: black 3px 2px 3px;
+}
+
+.bot h3 {
+    font-size: 35px;
+    margin-top: 25px;
+    color: white;
+    background-color: deepskyblue;
+    text-shadow: black 3px 2px 3px;
+}
+
+.bot h4 {
+    font-size: 40px;
+    margin-top: 50px;
+    color: gold;
+    text-shadow: black 3px 2px 3px;
+}
+
+.bot h5 {
+    font-size: 19px;
+    margin-top: 10px;
+    color: gold;
+    text-shadow: black 3px 2px 3px;
+}
+
+.bot p {
+    font-size: 19px;
+    color: white;
+    text-shadow: black 3px 2px 3px;
+}
+
+.container-imagem {
+    width: 100%;
+    margin: 5px;
+    border: 5px;
+}
+
+.imagem-principal {
+    display: flex;
+    margin: 0px;
+    object-fit: cover;
+    padding: 0px;
+    margin-top: 0px;
+    width: 1420px;
+    height: 150px;
+    margin: 0px;
+    border: 0px;
+    box-shadow: black 8px 8px 8px;
+}
+
+.galeria {
+    display: flex;
+    margin-top: 15px;
+    width: 100px;
+    height: 160px;
+    gap: 10px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.galeria1:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.galeria2:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.galeria3:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.galeria4:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.galeria5:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
