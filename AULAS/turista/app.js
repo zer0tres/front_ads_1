@@ -1,8 +1,8 @@
-const lugares = ['Praia', 'Montanha', 'Rota da Seda']
+const lugares = ['Praia', 'Montanha', 'Rota da Seda', 'Maravilhas']
 const mensagem = `
-      -- ROTEIRO DE VIAGENS --
+      ----------------------- ROTEIRO DE VIAGENS -----------------------
       Lugares disponíveis: ${lugares.join(', ')}
-      ----------------------------`
+      -----------------------------------------------------------------------`
 alert(mensagem)
 
 const escolhaUsuario = prompt('Para onde deseja viajar?')
@@ -19,6 +19,9 @@ if (!escolhaUsuario || escolhaUsuario.trim() === '') {
     } 
     else if (escolhaNormalizada === 'montanha') {
         window.location.href = './montanha.html'
+    }
+    else if (escolhaNormalizada === 'maravilhas') {
+        window.location.href = './maravilhas.html'
     }
     else if (escolhaNormalizada === 'rota da seda') {
         window.location.href = './rotadaseda.html'
