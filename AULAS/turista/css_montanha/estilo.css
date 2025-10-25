@@ -2,107 +2,136 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url('https://wallpapers.com/images/hd/nepal-mt-everest-peak-684cyeq8t5f8csf9.jpg');
+    background-image: url('https://wallpapers.com/images/hd/4k-mountain-fujjoqqen0rsvm76.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: brown;
-    line-height: 1.6;
 }
-
-.container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-header {
-    padding: 20px;
+body {
+    font-family: 'Gill Sans';
+    color: white;
+    text-shadow: black 3px 2px 3px;
     text-align: center;
 }
 
-header h1 {
+.top {
+    text-align: center;
     color: white;
-    text-shadow: 2px 2px 4px black;
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+
+    text-shadow: black 3px 2px 3px;
+    padding: 0px;
+
 }
 
-main {
-    flex: 1;
-    padding: 20px;
+.top h1 {
+    font-size: 35px;
+    color: white;
+
+    text-shadow: black 3px 2px 3px;
+}
+
+.top p {
+    font-size: 19px;
+    color: white;
+
+    text-shadow: black 3px 2px 3px;
+}
+
+.bot {
+    text-align: center;
+    color: white;
+
+    text-shadow: black 3px 2px 3px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.bot h2 {
+    font-size: 45px;
+    margin-top: 15px;
+    color: white;
+
+    text-shadow: black 3px 2px 3px;
+}
+
+.bot h3 {
+    font-size: 35px;
+    margin-top: 25px;
+    color: white;
+    background-color: deepskyblue;
+    text-shadow: black 3px 2px 3px;
+}
+
+.bot h4 {
+    font-size: 40px;
+    margin-top: 50px;
+    color: gold;
+    text-shadow: black 3px 2px 3px;
+}
+
+.bot h5 {
+    font-size: 19px;
+    margin-top: 10px;
+    color: gold;
+    text-shadow: black 3px 2px 3px;
+}
+
+.bot p {
+    font-size: 19px;
+    color: white;
+    text-shadow: black 3px 2px 3px;
+}
+
+.container-imagem {
+    width: 100%;
+    margin: 5px;
+    border: 5px;
+}
+
+.imagem-principal {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.card {
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-    padding: 25px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 800px;
-    margin: 0 auto;
-    transition: transform 0.3s ease;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-}
-
-.card h2 {
-    color: brown;
-    margin-bottom: 15px;
-    border-bottom: 2px solid brown;
-    padding-bottom: 10px;
-}
-
-.card p {
-    margin-bottom: 15px;
-}
-
-.card ul {
-    margin-left: 20px;
-    margin-bottom: 15px;
-}
-
-.card li {
-    margin-bottom: 8px;
-}
-
-.imagens {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-}
-
-.imagens img {
-    width: 200px;
-    height: 150px;
+    margin: 0px;
     object-fit: cover;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    margin-top: 0px;
+    width: 1420px;
+    height: 45px;
+    margin: 0px;
+    border: 0px;
+    box-shadow: black 8px 8px 8px;
 }
 
+.galeria {
+    display: flex;
+    margin-top: 15px;
+    width: 100px;
+    height: 175px;
+    gap: 15px;
+    margin: 10px;
+    border-radius: 50px;
+}
 
+.galeria1:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
 
-/* Responsividade */
-@media (max-width: 768px) {
-    .card {
-        padding: 15px;
-    }
-    
-    header h1 {
-        font-size: 2rem;
-    }
-    
-    .imagens img {
-        width: 100%;
-        height: auto;
-    }
+.galeria2:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.galeria3:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.galeria4:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.galeria5:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
 }
