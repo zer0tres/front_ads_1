@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url('https://wallpapers.com/images/hd/4k-mountain-fujjoqqen0rsvm76.jpg');
+     background-image: url('https://studhistoria.com.br/sth/wp-content/uploads/2022/05/capa2.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -13,7 +13,6 @@ body {
     text-shadow: black 3px 2px 3px;
     text-align: center;
 }
-
 .top {
     text-align: center;
     color: white;
@@ -24,14 +23,13 @@ body {
 }
 
 .top h1 {
-    font-size: 35px;
+    font-size: 34px;
     color: white;
 
     text-shadow: black 3px 2px 3px;
 }
-
 .top p {
-    font-size: 19px;
+    font-size: 15px;
     color: white;
 
     text-shadow: black 3px 2px 3px;
@@ -47,38 +45,38 @@ body {
 }
 
 .bot h2 {
-    font-size: 45px;
-    margin-top: 15px;
+    font-size: 22px;
+    margin-top: 5px;
     color: white;
 
     text-shadow: black 3px 2px 3px;
 }
 
 .bot h3 {
-    font-size: 35px;
-    margin-top: 25px;
+    font-size: 29px;
+    margin-top: 5px;
     color: white;
     background-color: deepskyblue;
     text-shadow: black 3px 2px 3px;
 }
 
 .bot h4 {
-    font-size: 40px;
-    margin-top: 50px;
+    font-size: 34px;
+    margin-top: 5px;
     color: gold;
     text-shadow: black 3px 2px 3px;
 }
 
 .bot h5 {
-    font-size: 19px;
-    margin-top: 10px;
+    font-size: 15px;
+    margin-top: 5px;
     color: gold;
     text-shadow: black 3px 2px 3px;
 }
 
 .bot p {
-    font-size: 19px;
-    color: white;
+    font-size: 15px;
+    color: golde;
     text-shadow: black 3px 2px 3px;
 }
 
@@ -87,51 +85,61 @@ body {
     margin: 5px;
     border: 5px;
 }
-
-.imagem-principal {
-    display: flex;
-    margin: 0px;
-    object-fit: cover;
-    padding: 0px;
-    margin-top: 0px;
-    width: 1420px;
-    height: 45px;
-    margin: 0px;
-    border: 0px;
-    box-shadow: black 8px 8px 8px;
-}
-
-.galeria {
+.galeriaa {
     display: flex;
     margin-top: 15px;
-    width: 100px;
-    height: 175px;
+    width: 199px;
+    height: 218px;
     gap: 15px;
-    margin: 10px;
+    margin: 8px;
+    border-radius: 50px;
+}
+.galeriab {
+    display: flex;
+    margin-top: 15px;
+    width: 270px;
+    height: 288px;
+    gap: 15px;
+    margin: 8px;
     border-radius: 50px;
 }
 
 .galeria1:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
+    box-shadow: 0 0 25px goldenrod;
 }
 
 .galeria2:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
+    box-shadow: 0 0 25px goldenrod;
 }
 
 .galeria3:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
+    box-shadow: 0 0 25px goldenrod;
 }
 
 .galeria4:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
+    box-shadow: 0 0 25px goldenrod;
 }
 
 .galeria5:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
+    box-shadow: 0 0 25px goldenrod;
+}   
+.galeria6:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    box-shadow: 0 0 25px goldenrod;
+}
+.galeria7:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    box-shadow: 0 0 25px goldenrod;
 }

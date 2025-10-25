@@ -114,24 +114,29 @@ body {
 .galeria1:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
+    box-shadow: 0 0 25px goldenrod;
 }
 
 .galeria2:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
+    box-shadow: 0 0 25px goldenrod;
 }
 
 .galeria3:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
+    box-shadow: 0 0 25px goldenrod;
 }
 
 .galeria4:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
+    box-shadow: 0 0 25px goldenrod;
 }
 
 .galeria5:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
+    box-shadow: 0 0 25px goldenrod;
 }
