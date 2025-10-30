@@ -6,13 +6,13 @@
 //   - podem retornar valores ou não
 
 // Declaração de Função
-function dizOla(){
-    alert("Diz olá!")
-}
-function dizOlaPessoa(nome){
-    alert(`pode falar, ${nome}!`)
+// function dizOla(){
+//     alert("Diz olá!")
+// }
+// function dizOlaPessoa(nome){
+//     alert(`pode falar, ${nome}!`)
 
-}
+// }
 const jogadores = ['Messi', 'Neymar', 'Mbappe', 'Ronaldo']
 const frutas = ['Banana', 'Maçã', 'Uva', 'Abacaxi']
 
@@ -24,4 +24,9 @@ function formataTexto(lista){
         //texto.join("-") > junta os elementos
     }
 }
-formataTexto(jogadores)
+// formataTexto(jogadores)
+function adicao(n1, n2){
+    return n1 + n2
+}
+const resultadoAdicao = adicao(5, 10)
+console.log(resultadoAdicao)
