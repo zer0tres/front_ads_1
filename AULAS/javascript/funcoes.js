@@ -5,4 +5,7 @@
 //   - podem receber parametros ou não
 //   - podem retornar valores ou não
 
-
+// Declaração de Função
+function dizOla(){
+    alert("Diz olá!")
+}
