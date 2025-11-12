@@ -26,3 +26,15 @@ formulario.addEventListener('submit', function(event){
     console.log(itensProdutos)
     formulario.reset() // limpa os campos do formulário
 })
+
+//criar função para gerar template do card
+function criarCardNovo(){
+// To Do: criar tags html e retornar
+}
+// RENDERIZAR OS CARDS
+function renderizarCards(){
+// To Do: inserir card atualizado na pagina
+}
+btnRemover.addEventListener('click', function(){
+    alert('Remover o último item da lista')
+})
