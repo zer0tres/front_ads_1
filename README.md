@@ -1,1 +1,2 @@
-# front_ads_1
+# DESENVOLVIMENTO WEB FRONT END - Prof Ledson - Uniandrade
+# Aprendizados passados e utilizados em aula.
